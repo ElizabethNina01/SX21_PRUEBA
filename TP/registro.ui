@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Registro</class>
+ <widget class="QMainWindow" name="Registro">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>870</width>
+    <height>870</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Registro</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>821</width>
+      <height>801</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QLabel" name="lblNombre">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>134</width>
+        <height>67</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Nombre</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>11</y>
+        <width>191</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>100</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblApellido">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>170</y>
+        <width>138</width>
+        <height>67</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Apellido</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="tbxApellido">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>230</y>
+        <width>491</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblCorreo">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>290</y>
+        <width>309</width>
+        <height>67</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>Correo Electrónico</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnCargarImg">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>329</y>
+        <width>188</width>
+        <height>33</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Cargar foto de perfil</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="tbxCorreo">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>386</y>
+        <width>108</width>
+        <height>24</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblConstra">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>417</y>
+        <width>294</width>
+        <height>67</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Contraseña nueva</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="tbxContra">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>518</y>
+        <width>108</width>
+        <height>24</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblFecha">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>549</y>
+        <width>337</width>
+        <height>67</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Fecha de nacimiento</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="boxDia">
+      <property name="geometry">
+       <rect>
+        <x>507</x>
+        <y>570</y>
+        <width>46</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>31</number>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="boxMes">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>570</y>
+        <width>46</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>12</number>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="boxA">
+      <property name="geometry">
+       <rect>
+        <x>658</x>
+        <y>570</y>
+        <width>60</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="minimum">
+       <number>1925</number>
+      </property>
+      <property name="maximum">
+       <number>2007</number>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnVolver">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>629</y>
+        <width>92</width>
+        <height>45</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Volver</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnRegistrarse">
+      <property name="geometry">
+       <rect>
+        <x>156</x>
+        <y>623</y>
+        <width>205</width>
+        <height>57</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Registrarse</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="tbxNombre">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>491</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QLabel" name="lblIngresaCorr">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>300</y>
+        <width>331</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Correo electrónico</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblIngresaCont_2">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>410</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Contraseña</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="tbxIngresCorr">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>360</y>
+        <width>421</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="tbxIngresaContra">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>470</y>
+        <width>421</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnNuevacuenta">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>610</y>
+        <width>281</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Nueva cuenta</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnIngresar">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>530</y>
+        <width>181</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Ingresar</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>870</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,69 @@
+<RCC>
+    <qresource prefix="/EXTRAS">
+        <file>EXTRAS/asombra.jpg</file>
+        <file>EXTRAS/like.png</file>
+        <file>EXTRAS/LOGODIMLIM.jpg</file>
+        <file>EXTRAS/love.png</file>
+        <file>EXTRAS/risa.png</file>
+        <file>EXTRAS/sinamigos.jpg</file>
+        <file>EXTRAS/userdesc.jpg</file>
+        <file>EXTRAS/perfillogo.png</file>
+        <file>EXTRAS/mis amigos.png</file>
+        <file>EXTRAS/prev.png</file>
+        <file>EXTRAS/next.png</file>
+        <file>EXTRAS/logooooo.jpg</file>
+    </qresource>
+    <qresource prefix="/Perfiles Fake">
+        <file>PerfilesFake/1.jpg</file>
+        <file>PerfilesFake/2.jpg</file>
+        <file>PerfilesFake/3.jpg</file>
+        <file>PerfilesFake/4.jpg</file>
+        <file>PerfilesFake/5.jpg</file>
+        <file>PerfilesFake/6.jpg</file>
+        <file>PerfilesFake/7.jpg</file>
+        <file>PerfilesFake/8.jpg</file>
+        <file>PerfilesFake/9.jpg</file>
+        <file>PerfilesFake/10.jpg</file>
+        <file>PerfilesFake/11.jpg</file>
+        <file>PerfilesFake/12.jpg</file>
+        <file>PerfilesFake/13.jpg</file>
+        <file>PerfilesFake/14.jpg</file>
+        <file>PerfilesFake/15.jpg</file>
+        <file>PerfilesFake/16.jpg</file>
+        <file>PerfilesFake/17.jpg</file>
+        <file>PerfilesFake/18.jpg</file>
+        <file>PerfilesFake/19.jpg</file>
+        <file>PerfilesFake/20.jpg</file>
+        <file>PerfilesFake/21.jpg</file>
+        <file>PerfilesFake/22.jpg</file>
+        <file>PerfilesFake/23.jpg</file>
+        <file>PerfilesFake/24.jpg</file>
+        <file>PerfilesFake/25.jpg</file>
+        <file>PerfilesFake/26.jpg</file>
+        <file>PerfilesFake/27.jpg</file>
+        <file>PerfilesFake/28.jpg</file>
+        <file>PerfilesFake/29.jpg</file>
+        <file>PerfilesFake/30.jpg</file>
+        <file>PerfilesFake/31.jpg</file>
+        <file>PerfilesFake/32.jpg</file>
+        <file>PerfilesFake/33.jpg</file>
+        <file>PerfilesFake/34.jpg</file>
+        <file>PerfilesFake/35.jpg</file>
+        <file>PerfilesFake/36.jpg</file>
+        <file>PerfilesFake/37.jpg</file>
+        <file>PerfilesFake/38.jpg</file>
+        <file>PerfilesFake/39.jpg</file>
+        <file>PerfilesFake/40.jpg</file>
+        <file>PerfilesFake/41.jpg</file>
+        <file>PerfilesFake/42.jpg</file>
+        <file>PerfilesFake/43.jpg</file>
+        <file>PerfilesFake/44.jpg</file>
+        <file>PerfilesFake/45.jpg</file>
+        <file>PerfilesFake/46.jpg</file>
+        <file>PerfilesFake/47.jpg</file>
+        <file>PerfilesFake/48.jpg</file>
+        <file>PerfilesFake/49.jpg</file>
+        <file>PerfilesFake/50.jpg</file>
+    </qresource>
+    <qresource prefix="/Archivo"/>
+</RCC>

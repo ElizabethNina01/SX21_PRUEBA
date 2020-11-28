@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=Vh7-RawYW_Y
+
+NOTA: El guardado de usuarios en archivo funciona tomando la dirección de 
+la carpeta build-Parcial-Desktop_Qt_5_15_0_MinGW_64_bit-Debug, no eliminar.
